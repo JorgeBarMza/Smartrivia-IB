@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0A93F61B6B6E3D0029F8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A93F51B6B6E3D0029F8CC /* AppDelegate.swift */; };
+		CF0A93FB1B6B6E3D0029F8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0A93F91B6B6E3D0029F8CC /* Main.storyboard */; };
+		CF0A940C1B6B6E3D0029F8CC /* Happy_KingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A940B1B6B6E3D0029F8CC /* Happy_KingTests.swift */; };
+		CF0A94161B6B6EA50029F8CC /* SmartriviaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A94151B6B6EA50029F8CC /* SmartriviaModel.swift */; };
+		CF0A94181B6B6F170029F8CC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A94171B6B6F170029F8CC /* MenuViewController.swift */; };
+		CF0A941A1B6B6F6F0029F8CC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A94191B6B6F6F0029F8CC /* GameViewController.swift */; };
+		CF0A94701B6B75740029F8CC /* 10_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94611B6B75730029F8CC /* 10_of_diamonds.png */; };
+		CF0A94711B6B75740029F8CC /* 2_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94621B6B75730029F8CC /* 2_of_clubs.png */; };
+		CF0A94721B6B75740029F8CC /* 3_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94631B6B75730029F8CC /* 3_of_spades.png */; };
+		CF0A94731B6B75740029F8CC /* 4_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94641B6B75730029F8CC /* 4_of_hearts.png */; };
+		CF0A94741B6B75740029F8CC /* 4suits.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94651B6B75730029F8CC /* 4suits.png */; };
+		CF0A94751B6B75740029F8CC /* 5_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94661B6B75730029F8CC /* 5_of_diamonds.png */; };
+		CF0A94761B6B75740029F8CC /* 6_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94671B6B75730029F8CC /* 6_of_clubs.png */; };
+		CF0A94771B6B75740029F8CC /* 7_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94681B6B75730029F8CC /* 7_of_hearts.png */; };
+		CF0A94781B6B75740029F8CC /* 8_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94691B6B75730029F8CC /* 8_of_spades.png */; };
+		CF0A94791B6B75740029F8CC /* 9_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A946A1B6B75730029F8CC /* 9_of_spades.png */; };
+		CF0A947A1B6B75740029F8CC /* ace_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A946B1B6B75730029F8CC /* ace_of_spades.png */; };
+		CF0A947B1B6B75740029F8CC /* Champagne-Glass-Remix-3-by-Merlin2525.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A946C1B6B75730029F8CC /* Champagne-Glass-Remix-3-by-Merlin2525.png */; };
+		CF0A947C1B6B75740029F8CC /* king_of_clubs2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A946D1B6B75730029F8CC /* king_of_clubs2.png */; };
+		CF0A947D1B6B75740029F8CC /* king_of_hearts2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A946E1B6B75730029F8CC /* king_of_hearts2.png */; };
+		CF0A947E1B6B75740029F8CC /* queen_of_clubs2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A946F1B6B75730029F8CC /* queen_of_clubs2.png */; };
+		CF0A94801B6CDF9E0029F8CC /* Back_Card.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A947F1B6CDF9E0029F8CC /* Back_Card.png */; };
+		CF0A94821B6DB0FD0029F8CC /* jack_of_clubs2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0A94811B6DB0FD0029F8CC /* jack_of_clubs2.png */; };
+		CF548BED1C86406B006E49C5 /* Beethoven.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE01C86406B006E49C5 /* Beethoven.png */; };
+		CF548BEE1C86406B006E49C5 /* benito juarez.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE11C86406B006E49C5 /* benito juarez.png */; };
+		CF548BEF1C86406B006E49C5 /* cleopatra.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE21C86406B006E49C5 /* cleopatra.png */; };
+		CF548BF01C86406B006E49C5 /* cristobal colon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE31C86406B006E49C5 /* cristobal colon.png */; };
+		CF548BF11C86406B006E49C5 /* da vinci.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE41C86406B006E49C5 /* da vinci.png */; };
+		CF548BF21C86406B006E49C5 /* Flapper.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE51C86406B006E49C5 /* Flapper.png */; };
+		CF548BF31C86406B006E49C5 /* HenryVIII.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE61C86406B006E49C5 /* HenryVIII.png */; };
+		CF548BF41C86406B006E49C5 /* napoleon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE71C86406B006E49C5 /* napoleon.png */; };
+		CF548BF51C86406B006E49C5 /* platon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE81C86406B006E49C5 /* platon.png */; };
+		CF548BF61C86406B006E49C5 /* stonehenge.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BE91C86406B006E49C5 /* stonehenge.png */; };
+		CF548BF71C86406B006E49C5 /* Triple Alliance.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BEA1C86406B006E49C5 /* Triple Alliance.png */; };
+		CF548BF81C86406B006E49C5 /* william wallace.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BEB1C86406B006E49C5 /* william wallace.png */; };
+		CF548BF91C86406B006E49C5 /* winston churchill.png in Resources */ = {isa = PBXBuildFile; fileRef = CF548BEC1C86406B006E49C5 /* winston churchill.png */; };
+		CF548BFB1C88A68D006E49C5 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF548BFA1C88A68D006E49C5 /* FinalViewController.swift */; };
+		CF9CDA711B7587CF003A3B89 /* AppIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9CDA701B7587CF003A3B89 /* AppIcons.xcassets */; };
+		CFA37FC91BA84EB800A4D5D0 /* red-felt-texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFA37FC81BA84EB800A4D5D0 /* red-felt-texture.jpg */; };
+		CFAF2EFF1C7028D300FA031B /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF2EFE1C7028D300FA031B /* book.jpg */; };
+		CFD028EE1BA6151E004BC401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD028ED1BA6151E004BC401 /* LaunchScreen.storyboard */; };
+		CFEDB9781B749234005FC558 /* ReglasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEDB9771B749234005FC558 /* ReglasViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF0A94061B6B6E3D0029F8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF0A93E81B6B6E3D0029F8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF0A93EF1B6B6E3D0029F8CC;
+			remoteInfo = "Happy King";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0A93F01B6B6E3D0029F8CC /* Smartrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0A93F41B6B6E3D0029F8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0A93F51B6B6E3D0029F8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF0A93FA1B6B6E3D0029F8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF0A94051B6B6E3D0029F8CC /* Smartrivia.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smartrivia.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0A940A1B6B6E3D0029F8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0A940B1B6B6E3D0029F8CC /* Happy_KingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_KingTests.swift; sourceTree = "<group>"; };
+		CF0A94151B6B6EA50029F8CC /* SmartriviaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartriviaModel.swift; sourceTree = "<group>"; };
+		CF0A94171B6B6F170029F8CC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CF0A94191B6B6F6F0029F8CC /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CF0A94611B6B75730029F8CC /* 10_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_diamonds.png; sourceTree = "<group>"; };
+		CF0A94621B6B75730029F8CC /* 2_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_clubs.png; sourceTree = "<group>"; };
+		CF0A94631B6B75730029F8CC /* 3_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_spades.png; sourceTree = "<group>"; };
+		CF0A94641B6B75730029F8CC /* 4_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_hearts.png; sourceTree = "<group>"; };
+		CF0A94651B6B75730029F8CC /* 4suits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4suits.png; sourceTree = "<group>"; };
+		CF0A94661B6B75730029F8CC /* 5_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_diamonds.png; sourceTree = "<group>"; };
+		CF0A94671B6B75730029F8CC /* 6_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_clubs.png; sourceTree = "<group>"; };
+		CF0A94681B6B75730029F8CC /* 7_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_hearts.png; sourceTree = "<group>"; };
+		CF0A94691B6B75730029F8CC /* 8_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_spades.png; sourceTree = "<group>"; };
+		CF0A946A1B6B75730029F8CC /* 9_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_spades.png; sourceTree = "<group>"; };
+		CF0A946B1B6B75730029F8CC /* ace_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_spades.png; sourceTree = "<group>"; };
+		CF0A946C1B6B75730029F8CC /* Champagne-Glass-Remix-3-by-Merlin2525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Champagne-Glass-Remix-3-by-Merlin2525.png"; sourceTree = "<group>"; };
+		CF0A946D1B6B75730029F8CC /* king_of_clubs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_clubs2.png; sourceTree = "<group>"; };
+		CF0A946E1B6B75730029F8CC /* king_of_hearts2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_hearts2.png; sourceTree = "<group>"; };
+		CF0A946F1B6B75730029F8CC /* queen_of_clubs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_clubs2.png; sourceTree = "<group>"; };
+		CF0A947F1B6CDF9E0029F8CC /* Back_Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_Card.png; sourceTree = "<group>"; };
+		CF0A94811B6DB0FD0029F8CC /* jack_of_clubs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_clubs2.png; sourceTree = "<group>"; };
+		CF548BE01C86406B006E49C5 /* Beethoven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beethoven.png; sourceTree = "<group>"; };
+		CF548BE11C86406B006E49C5 /* benito juarez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "benito juarez.png"; sourceTree = "<group>"; };
+		CF548BE21C86406B006E49C5 /* cleopatra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cleopatra.png; sourceTree = "<group>"; };
+		CF548BE31C86406B006E49C5 /* cristobal colon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cristobal colon.png"; sourceTree = "<group>"; };
+		CF548BE41C86406B006E49C5 /* da vinci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "da vinci.png"; sourceTree = "<group>"; };
+		CF548BE51C86406B006E49C5 /* Flapper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flapper.png; sourceTree = "<group>"; };
+		CF548BE61C86406B006E49C5 /* HenryVIII.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HenryVIII.png; sourceTree = "<group>"; };
+		CF548BE71C86406B006E49C5 /* napoleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = napoleon.png; sourceTree = "<group>"; };
+		CF548BE81C86406B006E49C5 /* platon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platon.png; sourceTree = "<group>"; };
+		CF548BE91C86406B006E49C5 /* stonehenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stonehenge.png; sourceTree = "<group>"; };
+		CF548BEA1C86406B006E49C5 /* Triple Alliance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Triple Alliance.png"; sourceTree = "<group>"; };
+		CF548BEB1C86406B006E49C5 /* william wallace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "william wallace.png"; sourceTree = "<group>"; };
+		CF548BEC1C86406B006E49C5 /* winston churchill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "winston churchill.png"; sourceTree = "<group>"; };
+		CF548BFA1C88A68D006E49C5 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		CF9CDA701B7587CF003A3B89 /* AppIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcons.xcassets; sourceTree = "<group>"; };
+		CFA37FC81BA84EB800A4D5D0 /* red-felt-texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "red-felt-texture.jpg"; sourceTree = "<group>"; };
+		CFAF2EFE1C7028D300FA031B /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
+		CFD028ED1BA6151E004BC401 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Happy King images/rHappy King Images/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		CFEDB9771B749234005FC558 /* ReglasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReglasViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF0A93ED1B6B6E3D0029F8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0A94021B6B6E3D0029F8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0A93E71B6B6E3D0029F8CC = {
+			isa = PBXGroup;
+			children = (
+				CF0A93F21B6B6E3D0029F8CC /* Smartrivia */,
+				CF0A94081B6B6E3D0029F8CC /* Smartrivia Tests */,
+				CF0A93F11B6B6E3D0029F8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0A93F11B6B6E3D0029F8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF0A93F01B6B6E3D0029F8CC /* Smartrivia.app */,
+				CF0A94051B6B6E3D0029F8CC /* Smartrivia.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF0A93F21B6B6E3D0029F8CC /* Smartrivia */ = {
+			isa = PBXGroup;
+			children = (
+				CF0A94151B6B6EA50029F8CC /* SmartriviaModel.swift */,
+				CF0A94171B6B6F170029F8CC /* MenuViewController.swift */,
+				CF0A94191B6B6F6F0029F8CC /* GameViewController.swift */,
+				CFEDB9771B749234005FC558 /* ReglasViewController.swift */,
+				CF0A93F91B6B6E3D0029F8CC /* Main.storyboard */,
+				CF548BFA1C88A68D006E49C5 /* FinalViewController.swift */,
+				CF0A93F31B6B6E3D0029F8CC /* Supporting Files */,
+			);
+			path = Smartrivia;
+			sourceTree = "<group>";
+		};
+		CF0A93F31B6B6E3D0029F8CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF0A941B1B6B72E50029F8CC /* Resources */,
+				CF0A93F51B6B6E3D0029F8CC /* AppDelegate.swift */,
+				CF0A93F41B6B6E3D0029F8CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF0A94081B6B6E3D0029F8CC /* Smartrivia Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF0A940B1B6B6E3D0029F8CC /* Happy_KingTests.swift */,
+				CF0A94091B6B6E3D0029F8CC /* Supporting Files */,
+			);
+			name = "Smartrivia Tests";
+			path = "Happy KingTests";
+			sourceTree = "<group>";
+		};
+		CF0A94091B6B6E3D0029F8CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF0A940A1B6B6E3D0029F8CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF0A941B1B6B72E50029F8CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF548BDF1C86406B006E49C5 /* Historia imagenes 2 */,
+				CFD028ED1BA6151E004BC401 /* LaunchScreen.storyboard */,
+				CF9CDA701B7587CF003A3B89 /* AppIcons.xcassets */,
+				CF0A94601B6B75730029F8CC /* Happy King Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF0A94601B6B75730029F8CC /* Happy King Images */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF2EFE1C7028D300FA031B /* book.jpg */,
+				CFA37FC81BA84EB800A4D5D0 /* red-felt-texture.jpg */,
+				CF0A947F1B6CDF9E0029F8CC /* Back_Card.png */,
+				CF0A94611B6B75730029F8CC /* 10_of_diamonds.png */,
+				CF0A94621B6B75730029F8CC /* 2_of_clubs.png */,
+				CF0A94631B6B75730029F8CC /* 3_of_spades.png */,
+				CF0A94641B6B75730029F8CC /* 4_of_hearts.png */,
+				CF0A94651B6B75730029F8CC /* 4suits.png */,
+				CF0A94661B6B75730029F8CC /* 5_of_diamonds.png */,
+				CF0A94671B6B75730029F8CC /* 6_of_clubs.png */,
+				CF0A94681B6B75730029F8CC /* 7_of_hearts.png */,
+				CF0A94691B6B75730029F8CC /* 8_of_spades.png */,
+				CF0A946A1B6B75730029F8CC /* 9_of_spades.png */,
+				CF0A94811B6DB0FD0029F8CC /* jack_of_clubs2.png */,
+				CF0A946B1B6B75730029F8CC /* ace_of_spades.png */,
+				CF0A946C1B6B75730029F8CC /* Champagne-Glass-Remix-3-by-Merlin2525.png */,
+				CF0A946D1B6B75730029F8CC /* king_of_clubs2.png */,
+				CF0A946E1B6B75730029F8CC /* king_of_hearts2.png */,
+				CF0A946F1B6B75730029F8CC /* queen_of_clubs2.png */,
+			);
+			name = "Happy King Images";
+			path = "Happy King images/rHappy King Images";
+			sourceTree = "<group>";
+		};
+		CF548BDF1C86406B006E49C5 /* Historia imagenes 2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF548BE01C86406B006E49C5 /* Beethoven.png */,
+				CF548BE11C86406B006E49C5 /* benito juarez.png */,
+				CF548BE21C86406B006E49C5 /* cleopatra.png */,
+				CF548BE31C86406B006E49C5 /* cristobal colon.png */,
+				CF548BE41C86406B006E49C5 /* da vinci.png */,
+				CF548BE51C86406B006E49C5 /* Flapper.png */,
+				CF548BE61C86406B006E49C5 /* HenryVIII.png */,
+				CF548BE71C86406B006E49C5 /* napoleon.png */,
+				CF548BE81C86406B006E49C5 /* platon.png */,
+				CF548BE91C86406B006E49C5 /* stonehenge.png */,
+				CF548BEA1C86406B006E49C5 /* Triple Alliance.png */,
+				CF548BEB1C86406B006E49C5 /* william wallace.png */,
+				CF548BEC1C86406B006E49C5 /* winston churchill.png */,
+			);
+			path = "Historia imagenes 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF0A93EF1B6B6E3D0029F8CC /* Smartrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0A940F1B6B6E3D0029F8CC /* Build configuration list for PBXNativeTarget "Smartrivia" */;
+			buildPhases = (
+				CF0A93EC1B6B6E3D0029F8CC /* Sources */,
+				CF0A93ED1B6B6E3D0029F8CC /* Frameworks */,
+				CF0A93EE1B6B6E3D0029F8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smartrivia;
+			productName = "Happy King";
+			productReference = CF0A93F01B6B6E3D0029F8CC /* Smartrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF0A94041B6B6E3D0029F8CC /* SmartriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0A94121B6B6E3D0029F8CC /* Build configuration list for PBXNativeTarget "SmartriviaTests" */;
+			buildPhases = (
+				CF0A94011B6B6E3D0029F8CC /* Sources */,
+				CF0A94021B6B6E3D0029F8CC /* Frameworks */,
+				CF0A94031B6B6E3D0029F8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0A94071B6B6E3D0029F8CC /* PBXTargetDependency */,
+			);
+			name = SmartriviaTests;
+			productName = "Happy KingTests";
+			productReference = CF0A94051B6B6E3D0029F8CC /* Smartrivia.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF0A93E81B6B6E3D0029F8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jorge Barrios";
+				TargetAttributes = {
+					CF0A93EF1B6B6E3D0029F8CC = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = C869JWB28N;
+						LastSwiftMigration = 0830;
+					};
+					CF0A94041B6B6E3D0029F8CC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CF0A93EF1B6B6E3D0029F8CC;
+					};
+				};
+			};
+			buildConfigurationList = CF0A93EB1B6B6E3D0029F8CC /* Build configuration list for PBXProject "Smartrivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0A93E71B6B6E3D0029F8CC;
+			productRefGroup = CF0A93F11B6B6E3D0029F8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF0A93EF1B6B6E3D0029F8CC /* Smartrivia */,
+				CF0A94041B6B6E3D0029F8CC /* SmartriviaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF0A93EE1B6B6E3D0029F8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF548BF51C86406B006E49C5 /* platon.png in Resources */,
+				CF0A94701B6B75740029F8CC /* 10_of_diamonds.png in Resources */,
+				CF548BF81C86406B006E49C5 /* william wallace.png in Resources */,
+				CF0A94801B6CDF9E0029F8CC /* Back_Card.png in Resources */,
+				CF0A94781B6B75740029F8CC /* 8_of_spades.png in Resources */,
+				CF0A94741B6B75740029F8CC /* 4suits.png in Resources */,
+				CF548BF71C86406B006E49C5 /* Triple Alliance.png in Resources */,
+				CFA37FC91BA84EB800A4D5D0 /* red-felt-texture.jpg in Resources */,
+				CF0A94751B6B75740029F8CC /* 5_of_diamonds.png in Resources */,
+				CF0A947C1B6B75740029F8CC /* king_of_clubs2.png in Resources */,
+				CF548BF41C86406B006E49C5 /* napoleon.png in Resources */,
+				CF548BED1C86406B006E49C5 /* Beethoven.png in Resources */,
+				CF548BF21C86406B006E49C5 /* Flapper.png in Resources */,
+				CF548BEF1C86406B006E49C5 /* cleopatra.png in Resources */,
+				CF0A94721B6B75740029F8CC /* 3_of_spades.png in Resources */,
+				CF548BF91C86406B006E49C5 /* winston churchill.png in Resources */,
+				CF548BF01C86406B006E49C5 /* cristobal colon.png in Resources */,
+				CF0A94791B6B75740029F8CC /* 9_of_spades.png in Resources */,
+				CFD028EE1BA6151E004BC401 /* LaunchScreen.storyboard in Resources */,
+				CF0A94761B6B75740029F8CC /* 6_of_clubs.png in Resources */,
+				CF548BF61C86406B006E49C5 /* stonehenge.png in Resources */,
+				CF9CDA711B7587CF003A3B89 /* AppIcons.xcassets in Resources */,
+				CF0A947A1B6B75740029F8CC /* ace_of_spades.png in Resources */,
+				CF0A947E1B6B75740029F8CC /* queen_of_clubs2.png in Resources */,
+				CF548BF11C86406B006E49C5 /* da vinci.png in Resources */,
+				CFAF2EFF1C7028D300FA031B /* book.jpg in Resources */,
+				CF0A93FB1B6B6E3D0029F8CC /* Main.storyboard in Resources */,
+				CF0A94821B6DB0FD0029F8CC /* jack_of_clubs2.png in Resources */,
+				CF548BF31C86406B006E49C5 /* HenryVIII.png in Resources */,
+				CF0A947D1B6B75740029F8CC /* king_of_hearts2.png in Resources */,
+				CF0A94711B6B75740029F8CC /* 2_of_clubs.png in Resources */,
+				CF0A947B1B6B75740029F8CC /* Champagne-Glass-Remix-3-by-Merlin2525.png in Resources */,
+				CF0A94731B6B75740029F8CC /* 4_of_hearts.png in Resources */,
+				CF548BEE1C86406B006E49C5 /* benito juarez.png in Resources */,
+				CF0A94771B6B75740029F8CC /* 7_of_hearts.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0A94031B6B6E3D0029F8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF0A93EC1B6B6E3D0029F8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEDB9781B749234005FC558 /* ReglasViewController.swift in Sources */,
+				CF548BFB1C88A68D006E49C5 /* FinalViewController.swift in Sources */,
+				CF0A941A1B6B6F6F0029F8CC /* GameViewController.swift in Sources */,
+				CF0A94161B6B6EA50029F8CC /* SmartriviaModel.swift in Sources */,
+				CF0A93F61B6B6E3D0029F8CC /* AppDelegate.swift in Sources */,
+				CF0A94181B6B6F170029F8CC /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0A94011B6B6E3D0029F8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0A940C1B6B6E3D0029F8CC /* Happy_KingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF0A94071B6B6E3D0029F8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF0A93EF1B6B6E3D0029F8CC /* Smartrivia */;
+			targetProxy = CF0A94061B6B6E3D0029F8CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF0A93F91B6B6E3D0029F8CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0A93FA1B6B6E3D0029F8CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF0A940D1B6B6E3D0029F8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF0A940E1B6B6E3D0029F8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF0A94101B6B6E3D0029F8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Smartrivia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeBarrios.Smartrivia;
+				PRODUCT_NAME = Smartrivia;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF0A94111B6B6E3D0029F8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Smartrivia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeBarrios.Smartrivia;
+				PRODUCT_NAME = Smartrivia;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CF0A94131B6B6E3D0029F8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Happy KingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jb.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Smartrivia;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartrivia.app/Smartrivia";
+			};
+			name = Debug;
+		};
+		CF0A94141B6B6E3D0029F8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Happy KingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jb.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Smartrivia;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartrivia.app/Smartrivia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF0A93EB1B6B6E3D0029F8CC /* Build configuration list for PBXProject "Smartrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0A940D1B6B6E3D0029F8CC /* Debug */,
+				CF0A940E1B6B6E3D0029F8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0A940F1B6B6E3D0029F8CC /* Build configuration list for PBXNativeTarget "Smartrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0A94101B6B6E3D0029F8CC /* Debug */,
+				CF0A94111B6B6E3D0029F8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0A94121B6B6E3D0029F8CC /* Build configuration list for PBXNativeTarget "SmartriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0A94131B6B6E3D0029F8CC /* Debug */,
+				CF0A94141B6B6E3D0029F8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF0A93E81B6B6E3D0029F8CC /* Project object */;
+}
